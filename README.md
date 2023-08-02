@@ -1,6 +1,15 @@
 # FRIES (Fuzzing Rust Library Interactions via Ecosystem-Guided Target Generation)
 This is the prototype tool for FRIES. We implemented FRIES based on the rustc compiler, utilizing the MIR module and librustdoc. Meanwhile, we have implemented automated scripts to handle the corpora and fuzzy testing.
 
+## FRIES_core
+Here is the core of FRIES, which includes the corpus parsing module and the target library parsing module. This project is based on Rust Projects and utilizes Rustc and librustdoc.
+
+## FRIES_corpus_script
+Here is the script FRIES uses to process the corpus in batches, including downloading, batch parsing, and streamlining deduplication.
+
+## FRIES_test_script
+This script is used by FRIES to fuzz ambiguous targets and perform batch processing on the generated files.
+
 # How to run it
 
 ## Change the version of the rustup toolchain.
