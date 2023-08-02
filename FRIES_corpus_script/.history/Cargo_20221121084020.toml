@@ -1,0 +1,13 @@
+[package]
+name = "rust_fuzzer"
+version = "0.0.0"
+edition = "2021"
+authors = ["Yin Xizhe"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.25"
+structopt = "0.3.26"
+toml = "0.5.9"
+current_platform = "0.2.0"

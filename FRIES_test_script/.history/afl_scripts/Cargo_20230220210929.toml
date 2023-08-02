@@ -1,0 +1,27 @@
+[package]
+name = "afl_scripts"
+version = "0.1.0"
+authors = ["jjf <stevenjiang1110@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "= 1.4.0"
+url = "= 2.2.0"
+config = "= 0.10.1"
+regex = "= 1.4.3"
+log = "0.4"
+env_logger = "0.9.0"
+
+# crates we test
+#smallvec = "=1.7.0"
+#regex-syntax = "= 0.6.22"
+#proc-macro2 = "= 1.0"
+#clap = "= 2.33.3"
+#semver = "= 0.11.0"
+#http = "= 0.2.6"
+#flate2 = "= 1.0.19"
+#serde_json = "= 1.0.61"
+#semver-parser = "= 0.10.2"
+# time = "= 0.2.24"

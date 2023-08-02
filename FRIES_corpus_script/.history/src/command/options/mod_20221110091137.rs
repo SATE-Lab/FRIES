@@ -1,0 +1,6 @@
+/*
+    This module is designed to parse options and run them.
+    One option is in one mod.
+*/
+
+pub mod init;
